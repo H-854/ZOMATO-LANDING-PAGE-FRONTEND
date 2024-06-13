@@ -1,0 +1,28 @@
+.location{
+    border: 1px solid lightgrey;
+    width: 25%;
+    border-radius: 0.5rem;
+}
+.div{
+    display: flex;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media query for screen resolution 480px by 780px */
+@media (max-width: 680px) and (max-height: 780px) {
+    .div {
+        flex-direction: column;
+        align-items: center; /* Optional: Center align the locations */
+    }
+
+    .location {
+        width: 80%; /* Adjust width as needed for better appearance */
+        margin-bottom: 1rem; /* Add some space between the locations */
+    }
+    .down{
+        margin-left: 2rem;
+    }
+}
