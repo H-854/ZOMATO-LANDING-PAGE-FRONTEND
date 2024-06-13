@@ -6,3 +6,11 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    overflow-x: hidden;
+
+}
