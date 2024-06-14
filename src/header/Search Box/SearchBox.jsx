@@ -9,6 +9,5 @@ export default function SearchBox(){
             </ul>
             <input type="text" class="form-control mb-5" aria-label="Text input with dropdown button" style={{height: "3rem"}} placeholder="Search for restaurant,cuisine or a dish"/>
         </div>
-        
     )
 }

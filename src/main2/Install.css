@@ -1,0 +1,16 @@
+.containerOuter{
+    background-color: #FFFBF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-fluid{
+    width: 250px;
+}
+.installation{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
